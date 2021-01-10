@@ -1,0 +1,8 @@
+def mydict
+mydict = {"keys":"value"}
+if keys in mydict:
+    print("error:duplicate value")
+print(mydict)
+mydict.pop("keys")
+print(mydict)
+
